@@ -5,6 +5,7 @@
 package com.hcc.services;
 
 import com.hcc.pojo.Category;
+import com.hcc.pojo.Product;
 import java.util.List;
 
 /**
@@ -13,4 +14,5 @@ import java.util.List;
  */
 public interface CategoryService {
     List<Category> getCate();
+
 }

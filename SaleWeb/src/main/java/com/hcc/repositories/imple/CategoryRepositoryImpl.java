@@ -6,6 +6,7 @@ package com.hcc.repositories.imple;
 
 import com.hcc.configs.HibernateConfig;
 import com.hcc.pojo.Category;
+import com.hcc.pojo.Product;
 import com.hcc.repositories.CategoryRepository;
 import java.util.List;
 import javax.persistence.Query;
@@ -32,5 +33,7 @@ public class CategoryRepositoryImpl implements CategoryRepository {
         
         return q.getResultList();
     }
+
+
     
 }

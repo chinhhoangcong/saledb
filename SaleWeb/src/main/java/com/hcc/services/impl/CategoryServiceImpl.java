@@ -4,7 +4,9 @@
  */
 package com.hcc.services.impl;
 
+import com.cloudinary.Cloudinary;
 import com.hcc.pojo.Category;
+import com.hcc.pojo.Product;
 import com.hcc.repositories.CategoryRepository;
 import com.hcc.services.CategoryService;
 import java.util.List;
@@ -22,9 +24,12 @@ public class CategoryServiceImpl implements CategoryService {
     @Autowired
     private CategoryRepository repo;
 
+
     @Override
     public List<Category> getCate() {
         return this.repo.getCate();
     }
+
+
 
 }
