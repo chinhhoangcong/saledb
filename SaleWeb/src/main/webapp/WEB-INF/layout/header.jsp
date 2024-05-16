@@ -27,6 +27,7 @@
                         <a class="nav-link" href="${myUrl}">${c.name}</a>
                     </li>
                 </c:forEach>
+               
                 <c:choose>
                     <c:when test="${pageContext.request.userPrincipal.name == null}">
                         <li class="nav-item">
